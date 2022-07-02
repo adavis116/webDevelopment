@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring CSS</title>
+    <link rel="icon" type="image/x-icon" href="pics/logo3.png">
+    <style>
+        h2{
+            color: darkblue;
+            background-color: aqua;
+            height: 30px;
+            width:fit-content;
+            font-style:initial;
+        }
+        p{
+            color: #3db03d;
+            font-style: italic;
+        }
+        button{
+            color:blue;
+            background-color: darkgrey;
+            height: 30px;
+            width: 70px;
+            font-style: unset;
+        }
+        input{
+            background-color: darkgrey;
+        }
+        #upload{
+            background-color: azure;
+        }
+        .top{
+            color: red;
+        }
+        body{
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2><u>User info Segment</u></h2>
+        <form action="">
+            <p>Please enter your credential below:</p>
+            <p>Username: <input type="text"></p>
+            <p>Password: <input type="password"></p>
+    
+            <p>Please upload your photo: <input type="file" id="upload"></p>
+            <p><input type="checkbox"> I agree with the terms and condition</p>
+            <button>SUBMIT</button>
+            <button>CANCEL</button>
+            <p class="top hello">*<small>All entered data are stored and encrypted</small></p>
+        </form>
+    </div>
+
+    <div>
+        <h2><u>List of topics to learn:</u></h2>
+        <form action="">
+            <ol>
+                <li>html</li>
+                <li class="top">CSS</li>
+                <li>JaveScript</li>
+                <li>PHP</li>
+            </ol>
+        </form>
+    </div>
+</body>
+</html>
